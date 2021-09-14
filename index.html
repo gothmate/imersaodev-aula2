@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 2 Imersão Alura</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+
+  <div class="container">
+    <h1 class="page-title">
+      Conversores
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+    <p class="page-subtitle">
+      Digite o Valor em Dólar e Descubra o Valor em Real
+    </p>
+    <label for="moeda">Insira o valor:</label>
+    <input type="number" id="valor" size="2" /><br>
+    <div id="valorConvertido"></div>
+    <button type="submit" onclick="Converter()">Converter</button>
+    <div class="divider"></div>
+    
+    <p class="page-subtitle">
+      Digite o Valor Celcius e Descubra o Valor em Fahrenheit
+    </p>
+    <label for="temperatura">Insira o valor:</label>
+    <input type="number" id="valorTemp" size="2" /><br>
+    <div id="tempConvertido"></div>
+    <button type="submit" onclick="converterTemperatura()">Converter</button>
+    <div class="divider"></div>
+
+    <p class="page-subtitle">
+      Digite a distância do corpo celeste em parsecs.
+    </p>
+    <p class="page-subtitle">Agora podemos saber se Han Solo poderia percorrer o percurso de Kessel em apenas 12 parsecs. :D</p>
+    <label for="parsecs">Insira o valor:</label>
+    <input type="number" id="valorParsec" size="2" /><br>
+    <div id="anosLuzConvertido"></div>
+    <button type="submit" onclick="converterDistanciaAstronomica()">Converter</button>
+    <div class="divider"></div>
+  </div>
+
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+  <script src="./main.js"></script>
+
+</body>
+</html>
